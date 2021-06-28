@@ -29,13 +29,13 @@ export default class CreatePost extends Component {
 
     render() {
         let preview_images = {
-            image_1: require("../assets/image_1.jpg"),
-            image_2: require("../assets/image_2.jpg"),
+            image_1: require("image_1.jpg"),
+            image_2: require("image_2.jpg"),
             image_3: require("../assets/image_3.jpg"),
-            image_4: require("../assets/image_4.jpg"),
-            image_5: require("../assets/image_5.jpg"),
+            image_4: require("image_4.jpg"),
+            image_5: require("image_5.jpg"),
             image_6: require("../assets/image_6.jpg"),
-            image_7: require("../assets/image_7.jpg")
+            image_7: require("image_7.jpg")
         };
         return (
             <View style={styles.container}>
